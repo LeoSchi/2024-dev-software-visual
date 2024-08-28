@@ -22,4 +22,9 @@ app.MapGet("/retornarendereco", () =>
     return endereco;
 });
 
+
+//Criar uma funcionalidade para receber informações
+// - Receber informações pela URL da req
+// - Receber informações pelo corpo da req
+//Guardar informações em uma lista
 app.Run();
